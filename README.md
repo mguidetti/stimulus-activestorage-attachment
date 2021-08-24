@@ -1,0 +1,1 @@
+# Attachments Stimulus Component
