@@ -1,7 +1,7 @@
 {
   "name": "@mguidetti/stimulus-activestorage-attachment-component",
-  "version": "0.0.1",
-  "description": "A Stimulus component for an active storage attachments model",
+  "version": "0.1.1",
+  "description": "A Stimulus component for an ActiveStorage attachments model",
   "main": "dist/stimulus-activestorage-attachment-component.js",
   "umd:main": "dist/stimulus-activestorage-attachment-component.umd.js",
   "module": "dist/stimulus-activestorage-attachment-component.m.js",
@@ -10,7 +10,7 @@
     "url": "https://github.com/mguidetti/stimulus-activestorage-attachment-component",
     "type": "git"
   },
-  "author": "Michael GUidetti <michael@michaelguidetti.info",
+  "author": "Michael Guidetti <michael@michaelguidetti.info",
   "contributors": [],
   "license": "MIT",
   "private": false,
@@ -20,10 +20,11 @@
     "stimulusjs",
     "controller",
     "components",
-    "active-storage",
+    "activestorage",
     "attachments"
   ],
   "peerDependencies": {
+    "@rails/activestorage": "^6.1.4-1",
     "stimulus": ">=2.0.0"
   },
   "scripts": {
@@ -37,6 +38,7 @@
     "mutationobserver-shim": "^0.3.7"
   },
   "dependencies": {
+    "@rails/activestorage": "^6.1.4-1",
     "stimulus": "^2.0.0"
   }
 }
