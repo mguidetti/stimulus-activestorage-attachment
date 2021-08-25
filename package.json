@@ -1,20 +1,20 @@
 {
-  "name": "@mguidetti/stimulus-activestorage-attachment-component",
+  "name": "@mguidetti/stimulus-activestorage-attachment",
   "version": "0.1.1",
-  "description": "A Stimulus component for an ActiveStorage attachments model",
-  "main": "dist/stimulus-activestorage-attachment-component.js",
-  "umd:main": "dist/stimulus-activestorage-attachment-component.umd.js",
-  "module": "dist/stimulus-activestorage-attachment-component.m.js",
-  "esmodule": "dist/stimulus-activestorage-attachment-component.modern.js",
+  "description": "A Stimulus controller for an ActiveStorage attachments model",
+  "main": "dist/stimulus-activestorage-attachment.js",
+  "umd:main": "dist/stimulus-activestorage-attachment.umd.js",
+  "module": "dist/stimulus-activestorage-attachment.m.js",
+  "esmodule": "dist/stimulus-activestorage-attachment.modern.js",
   "repository": {
-    "url": "https://github.com/mguidetti/stimulus-activestorage-attachment-component",
+    "url": "https://github.com/mguidetti/stimulus-activestorage-attachment",
     "type": "git"
   },
   "author": "Michael Guidetti <michael@michaelguidetti.info>",
   "contributors": [],
   "license": "MIT",
   "private": false,
-  "amdName": "StimulusActivestorageAttachmentComponent",
+  "amdName": "StimulusActivestorageAttachment",
   "keywords": [
     "stimulus",
     "stimulusjs",
