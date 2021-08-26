@@ -11,10 +11,6 @@ export default class extends Controller {
     whitelist: Array,
   }
 
-  connect() {
-    console.log('attachments connected')
-  }
-
   get activeFiles() {
     return this.fileTargets.filter(div => !div.classList.contains('destroying'))
   }
