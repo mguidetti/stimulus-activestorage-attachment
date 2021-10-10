@@ -96,7 +96,7 @@ export default class extends Controller {
       attachment.insertAdjacentHTML('beforeend', progressHtml)
       attachment.querySelector('.filename').innerText = file.name
 
-      if (attachment.querySelector('img')) {
+      if (file.type.includes('image') && attachment.querySelector('img')) {
         attachment.querySelector('img').src = URL.createObjectURL(file)
       }
 
